@@ -93,7 +93,7 @@ return `${score}文字打てました!\n${text}\n【ok】リトライ / 【キ�
 const gameOver = id => {
   clearInterval(id);
 
-  console result = confirm(rankCheck(score));
+  const result = confirm(rankCheck(score));
 
   // okボタンをクリックされたらリロードする
   if(result == true) {
